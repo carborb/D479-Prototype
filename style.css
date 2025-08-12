@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Playfair";
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+
+
+
+
+img {
+    object-fit: cover;
+    height: 700px;
+    width: 80%;
+}
+
+html {
+    background-color: #b25121;
+    font-family: "Playfair";
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.top_container {
+    color: #f5ece4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#title_text {
+    font-weight: 600;
+}
+
+
+
+.nav_bar{
+    background-color: #67200e;
+    color: #f5ece4;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #f5ece4;
+}
+
+ul {    
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
